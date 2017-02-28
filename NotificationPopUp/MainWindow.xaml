@@ -1,0 +1,15 @@
+﻿<Window x:Class="NotificationPopUp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NotificationPopUp"
+        mc:Ignorable="d"
+        Title="Notification Pop Up" Height="318" Width="309">
+    <Grid>
+        <Button x:Name="btnShow" Content="Show me notification window" HorizontalAlignment="Left" Margin="61,176,0,0" VerticalAlignment="Top" Width="180" Click="btnShow_Click" Height="58" />
+        <TextBox x:Name="tBoxMessage" HorizontalAlignment="Left" Height="130" Margin="41,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="222"/>
+        <Label x:Name="label" Content="Message text for notification window" HorizontalAlignment="Left" Margin="41,15,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
